@@ -1,19 +1,79 @@
-body
-{
-    background-color:lightgreen;
-}
 header{
+    background-color: black;    
+}
+.menu{
+    
+}
+.menu__logo{
+    text-align: left;
+    width: 150px;
+    height: 150px;
+}
+.menu__titulo{
+    color:aliceblue;
+    text-align: center;   
+}
+.menu__opciones{   
+    color:aliceblue;
+    font-size: 16px;
+    font-family: cursive;
+    font-weight:lighter;
+    font-style:italic;
+    text-decoration: none;     
+}
+section{
+
+}
+.inicio{
+
+}
+.inicio__titulo{
+    background-color:aquamarine;
+    color:black;
+    font-size: 26px;
+}
+.inicio__texto{
+
+}
+.inicio__img1{
+
+}
+.inicio__img2{
+    
+}
+.inicio__img3{
+    
+}
+.contenido{
+
+}
+.contenido__titulo{
+    color:blue;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight:lighter;
+    font-style:italic;
+    text-decoration: none;
+}
+.contenido__img{
+
+}
+.contenido__subtitulo{
+
+}
+.contenido__texto{
+
+}
+
+
+.abajo{
     background-color: black;
 }
-h1{
-    color: firebrick;
+.abajo__subtitulo{
+    color: aliceblue;
+
 }
-h2{
-    color: teal;
-}
-p{
-    color: darkslategrey;
-}
-.celeste{
-    color: aqua;
+.abajo__img{
+    
+
 }
