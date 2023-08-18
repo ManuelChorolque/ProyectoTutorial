@@ -1,12 +1,18 @@
+body{
+    
+}
 header{
     background-color: black;    
 }
+
 .menu{
+    display: flex;
+    justify-content: center;
     
 }
-.menu__logo{
+.logo__img{
     text-align: left;
-    width: 150px;
+    width: 230px;
     height: 150px;
 }
 .menu__titulo{
@@ -14,6 +20,8 @@ header{
     text-align: center;   
 }
 .menu__opciones{   
+    border-right: 25px;
+    padding: 10px;
     color:aliceblue;
     font-size: 16px;
     font-family: cursive;
@@ -22,6 +30,9 @@ header{
     text-decoration: none;     
 }
 section{
+    background-image: url(../img/fondo.jpg);
+    background-size: 1500px 900px;
+    background-repeat:repeat-y;
 
 }
 .inicio{
@@ -30,15 +41,17 @@ section{
 .inicio__titulo{
     background-color:aquamarine;
     color:black;
-    font-size: 26px;
+    font-size: 30px;
 }
 .inicio__texto{
-
+    color:black;
+    font-size: 30px;
 }
 .inicio__img1{
 
 }
 .inicio__img2{
+   
     
 }
 .inicio__img3{
@@ -56,13 +69,21 @@ section{
     text-decoration: none;
 }
 .contenido__img{
+    width: 100%;
+    
+    margin: 10px;
+    border: 1px solid color(srgb red green blue);
+    padding: 5px;
+    border-radius: 10%;
 
 }
 .contenido__subtitulo{
-
+    color:greenyellow;
+    font-size: 20px;
 }
 .contenido__texto{
-
+    color:black;
+    font-size: 20px;
 }
 
 
