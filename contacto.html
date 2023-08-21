@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="src/css/style.css">
 </head>
 <body>
-  <header> 
+  <header class="cabeza"> 
 
-    <img class="logo__img" src="src/img/supercell.jpg" alt="Logo de supercell">
+    <img class="logo__img" src="src/img/supercell.png" alt="Logo de supercell">
     <nav class="menu">                    
         <a class="menu__opciones" href="inicio.html">Inicio</a>
         <a class="menu__opciones" href="tutorial.html">Tutorial</a>
@@ -22,26 +22,20 @@
   <section>
     <h1 class="contenido__titulo">Formulario de Consultas</h1>
     <form action="/my-handling-form-page" method="post">
-      <ul>
-        <li>
-          <label class="contenido__subtitulo" for="name">Nombre:</label>
-          <input type="text" id="name" name="user_name" />
-        </li>
-        <li>
-          <label class="contenido__subtitulo" for="mail">Correo electrónico:</label>
-          <input type="email" id="mail" name="user_mail" />
-        </li>
-        <li>
-          <label class="contenido__subtitulo" for="msg">Mensaje:</label>
-          
-        </li>
-        <li>
-          <textarea id="msg" name="user_message"></textarea>
-        </li>
-        <li class="button">
-          <button type="submit">Enviar</button>
-        </li>
-      </ul>
+      <div class="coment">
+        <label class="contenido__subtitulo" for="name">Nombre:</label>
+        <input type="text" id="name" name="user_name" />
+     
+        <label class="contenido__subtitulo" for="mail">Correo electrónico:</label>
+        <input type="email" id="mail" name="user_mail" />
+    
+        <label class="contenido__subtitulo" for="msg">Mensaje:</label>
+        
+    
+        <textarea id="msg" name="user_message"></textarea>
+
+        <button type="submit">Enviar</button>
+      </div>
     </form>
   </section>
 
