@@ -1,4 +1,5 @@
 body{
+    background-color:darkcyan;
     
 }
 header{
@@ -15,62 +16,55 @@ header{
     width: 230px;
     height: 150px;
 }
-.menu__titulo{
-    color:aliceblue;
-    text-align: center;   
-}
 .menu__opciones{   
     border-right: 25px;
-    padding: 10px;
+    padding: 20px;
     color:aliceblue;
-    font-size: 16px;
+    font-size: 30px;
     font-family: cursive;
     font-weight:lighter;
     font-style:italic;
     text-decoration: none;     
 }
-section{
+.section__inicio{
     background-image: url(../img/fondo.jpg);
-    background-size: 1500px 900px;
-    background-repeat:repeat-y;
+    background-repeat:no-repeat;
+    background-size: 2000px 600px;
 
 }
-.inicio{
-
-}
-.inicio__titulo{
+.section__inicio__titulo{
     background-color:aquamarine;
     color:black;
     font-size: 30px;
+    font-style:italic;
 }
-.inicio__texto{
+.section__inicio__texto{
     color:black;
     font-size: 30px;
+    font-style:italic;
 }
-.inicio__img1{
+.section__inicio__img1{
 
 }
-.inicio__img2{
+.section__inicio__img2{
    
     
 }
-.inicio__img3{
+.section__inicio__img3{
     
 }
-.contenido{
 
-}
 .contenido__titulo{
-    color:blue;
-    font-size: 20px;
+    background-color:aquamarine;
+    color:black;
+    font-size: 50px;
     font-family: cursive;
     font-weight:lighter;
     font-style:italic;
     text-decoration: none;
 }
 .contenido__img{
-    width: 100%;
-    
+    width: 60%;
     margin: 10px;
     border: 1px solid color(srgb red green blue);
     padding: 5px;
@@ -78,12 +72,17 @@ section{
 
 }
 .contenido__subtitulo{
-    color:greenyellow;
+    color:chartreuse;
     font-size: 20px;
+    font-style:italic;
 }
 .contenido__texto{
     color:black;
     font-size: 20px;
+    font-style:italic;
+}
+.contenido__contacto{
+    text-decoration: none;
 }
 
 
@@ -92,6 +91,8 @@ section{
 }
 .abajo__subtitulo{
     color: aliceblue;
+    font-size: 20px;
+    font-style:italic;
 
 }
 .abajo__img{
