@@ -9,8 +9,7 @@
 <body>
   <header> 
 
-    <img class="logo__img" src="src/img/supercell.png" alt="Logo de supercell">
-
+    <img class="logo__img" src="src/img/supercell.jpg" alt="Logo de supercell">
     <nav class="menu">                    
         <a class="menu__opciones" href="inicio.html">Inicio</a>
         <a class="menu__opciones" href="tutorial.html">Tutorial</a>
@@ -19,27 +18,28 @@
         <a class="menu__opciones" href="contacto.html">Contacto</a>
     </nav>
 </header>
-  <h1>Formulario de Consultas</h1>
+  
   <section>
+    <h1 class="contenido__titulo">Formulario de Consultas</h1>
     <form action="/my-handling-form-page" method="post">
       <ul>
         <li>
-          <label for="name">Nombre:</label>
+          <label class="contenido__subtitulo" for="name">Nombre:</label>
           <input type="text" id="name" name="user_name" />
         </li>
         <li>
-          <label for="mail">Correo electrónico:</label>
+          <label class="contenido__subtitulo" for="mail">Correo electrónico:</label>
           <input type="email" id="mail" name="user_mail" />
         </li>
         <li>
-          <label for="msg">Mensaje:</label>
+          <label class="contenido__subtitulo" for="msg">Mensaje:</label>
           
         </li>
         <li>
           <textarea id="msg" name="user_message"></textarea>
         </li>
         <li class="button">
-          <button type="submit">Envíe su mensaje</button>
+          <button type="submit">Enviar</button>
         </li>
       </ul>
     </form>
