@@ -1,30 +1,53 @@
+*{
+    margin: 0;
+    padding: 15;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+:root{
+    --main-color:aqua;
+    --text-color:rgb(126, 73, 73);
+    --text-color-hover:blue;
+    --text-color-parrafo:grey;
+}
 body{
-    background-color:darkcyan;
+    background-color:aliceblue;
     
 }
 header{
     background-color: black;    
 }
-
-.menu{
+.cabeza{
     display: flex;
-    justify-content: center;
-    
+    padding: 20px;
+    align-items: center;
+}
+nav{
+    text-align: center; 
 }
 .logo__img{
-    text-align: left;
-    width: 230px;
-    height: 150px;
+    width: 150px;
+    height: 80px;
 }
 .menu__opciones{   
     border-right: 25px;
     padding: 20px;
+    border-radius: 15px;
     color:aliceblue;
-    font-size: 30px;
+    font-size: 25px;
     font-family: cursive;
     font-weight:lighter;
     font-style:italic;
     text-decoration: none;     
+}
+.menu__opciones:focus{
+    color: darkgreen;
+}
+.menu__opciones:hover{
+    color: yellow;
+}
+.menu__opciones:active{
+    background-color:cyan;
 }
 .section__inicio{
     background-image: url(../img/fondo.jpg);
@@ -35,11 +58,13 @@ header{
 .section__inicio__titulo{
     background-color:aquamarine;
     color:black;
+    padding: 0px 15px;
     font-size: 30px;
     font-style:italic;
 }
 .section__inicio__texto{
     color:black;
+    padding: 15px;
     font-size: 30px;
     font-style:italic;
 }
@@ -62,6 +87,7 @@ header{
     font-weight:lighter;
     font-style:italic;
     text-decoration: none;
+    padding: 0px 15px;
 }
 .contenido__img{
     width: 60%;
@@ -72,12 +98,14 @@ header{
 
 }
 .contenido__subtitulo{
-    color:chartreuse;
+    color:darkgreen;
+    padding: 13px;
     font-size: 20px;
     font-style:italic;
 }
 .contenido__texto{
     color:black;
+    padding: 13px;
     font-size: 20px;
     font-style:italic;
 }
@@ -98,4 +126,23 @@ header{
 .abajo__img{
     
 
+}
+.button{
+    background-color: aquamarine;
+}
+.coment{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+.coment label{
+    margin-bottom: 5px;
+}
+.coment input[type="text"],
+.coment textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    
 }
