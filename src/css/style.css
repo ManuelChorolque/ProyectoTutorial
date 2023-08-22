@@ -1,17 +1,20 @@
 *{
     margin: 0;
-    padding: 15;
+    padding: 0;
     font-family: 'Courier New', Courier, monospace;
     box-sizing: border-box;
 }
 :root{
-    --main-color:aqua;
+    --fondo-color:aliceblue;
+    --titu-color:black;
     --text-color:rgb(126, 73, 73);
-    --text-color-hover:blue;
-    --text-color-parrafo:grey;
+    --subt-color:darkgreen;
+    --text-color-hover:yellow;
+    --text-color-active:cyan;
+    --text-diseño-overflow: italic;
 }
 body{
-    background-color:aliceblue;
+    background-color:var(--fondo-color);
     
 }
 header{
@@ -37,17 +40,17 @@ nav{
     font-size: 25px;
     font-family: cursive;
     font-weight:lighter;
-    font-style:italic;
+    font-style:var(--text-diseño);
     text-decoration: none;     
 }
 .menu__opciones:focus{
     color: darkgreen;
 }
 .menu__opciones:hover{
-    color: yellow;
+    color:var(--text-color-hover);
 }
 .menu__opciones:active{
-    background-color:cyan;
+    background-color:var(--text-color-active);
 }
 .section__inicio{
     background-image: url(../img/fondo.jpg);
@@ -60,13 +63,13 @@ nav{
     color:black;
     padding: 0px 15px;
     font-size: 30px;
-    font-style:italic;
+    font-style:var(--text-diseño);
 }
 .section__inicio__texto{
     color:black;
     padding: 15px;
     font-size: 30px;
-    font-style:italic;
+    font-style:var(--text-diseño);
 }
 .section__inicio__img1{
 
@@ -81,11 +84,11 @@ nav{
 
 .contenido__titulo{
     background-color:aquamarine;
-    color:black;
+    color:var(--titu-color);
     font-size: 50px;
     font-family: cursive;
     font-weight:lighter;
-    font-style:italic;
+    font-style:var(--text-diseño);
     text-decoration: none;
     padding: 0px 15px;
 }
@@ -98,16 +101,16 @@ nav{
 
 }
 .contenido__subtitulo{
-    color:darkgreen;
+    color:var(--subt-color);
     padding: 13px;
     font-size: 20px;
-    font-style:italic;
+    font-style:var(--text-diseño);
 }
 .contenido__texto{
-    color:black;
+    color:var(--text-color);
     padding: 13px;
     font-size: 20px;
-    font-style:italic;
+    font-style:var(--text-diseño);
 }
 .contenido__contacto{
     text-decoration: none;
@@ -120,7 +123,7 @@ nav{
 .abajo__subtitulo{
     color: aliceblue;
     font-size: 20px;
-    font-style:italic;
+    font-style:var(--text-diseño);
 
 }
 .abajo__img{
