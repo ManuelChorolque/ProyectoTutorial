@@ -8,10 +8,11 @@
 </head>
 <body>
 
-    <header class="cabeza"> 
-
-        <img class="logo__img" src="src/img/supercell.png" alt="Logo de supercell">
-        <nav class="menu">                    
+    <header class="cabeza" > 
+        <div class="cabeza__logo">
+            <img class="cabeza__logo__img" src="src/img/supercell.jpg" alt="Logo de supercell">
+        </div>  
+        <nav class="cabeza__op">                    
             <a class="menu__opciones" href="inicio.html">Inicio</a>
             <a class="menu__opciones" href="tutorial.html">Tutorial</a>
             <a class="menu__opciones" href="trucos.html">Trucos</a>
@@ -22,6 +23,7 @@
     
     <section>
         <article class="contenido"> 
+            <h1 class="section__linea"></h1>
             <h1 class="contenido__titulo">Tutorial Sobre Clash Royale</h1> 
             <img class="contenido__img" src="src/img/tutorial.jpg"alt="">
             <h2 class="contenido__subtitulo">¿Cómo funciona el juego Clash Royale?</h2>
@@ -44,13 +46,19 @@
             <p class="contenido__texto">Ganas una partida al destruir la torre de la corona del oponente, o al tener más coronas que el oponente cuando termina el tiempo.</p>
             <h2 class="contenido__subtitulo">¿Cómo se pueden mejorar las cartas en Clash Royale?</h2>
             <p class="contenido__texto">Puedes mejorar las cartas utilizando cartas de la misma unidad y oro. Cada mejora aumenta las estadísticas de la carta.</p>
+            <h1 class="section__linea"></h1>
         </article>
     </section>
 
     <footer class="abajo">
-        <h4 class="abajo__subtitulo">Sígueme en mis redes sociales:</h4>
-        <img class="abajo__img" src="src/img/iconos.jpg" alt="Iconos de redes sociales">
-    </footer>          
+        <h4 class="abajo__subtitulo">Redes sociales:</h4>
+        <div class="links">
+          <a href="https://www.instagram.com/clashroyalees/?hl=es"><img class="instagram" src="src/img/instagram.png" alt=""></a>
+          <a href="https://www.facebook.com/ClashRoyale/?locale=es_LA"><img class="facebook" src="src/img/facebook.png" alt=""></a>
+          <a href="https://www.youtube.com/channel/UC62hT7P4rX-FyuM3RQuGgnQ"><img class="youtube" src="src/img/youtube.png" alt=""></a>
+          <a href="https://twitter.com/ClashRoyale?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img class="twitter" src="src/img/twitter1.png" alt=""></a>
+        </div>
+      </footer>        
           
 </body>
 </html>
