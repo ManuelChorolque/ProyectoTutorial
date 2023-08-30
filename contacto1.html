@@ -7,52 +7,69 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <style>
-body{
-  background-color:rgb(122, 153, 180) ;
-  background-size: 100%;
-  position: relative;
-}
+  header{
+    background-color:black;
+    background-size: 100%;
+    font-family: cursive;
+  }
+  body{
+    background-color: rgb(174, 217, 241);
+    background-size: 100%;
+  }
+  section{
+    font-family: cursive;
+  }
+  footer{
+    background-color:black;
+    background-size: 100%;
+    font-family: cursive;
+    position: absolute;
+    bottom: 0;
+  }
 </style>
 <body>
-  <header class="bg-dark container-fluid">
-    <img src="src/img/supercell.jpg" class="float-start" alt="Logo de supercell" width="110" height="70"> 
-    <nav class="text-center p-4" >               
-      <strong><a class="menu__opciones" href="inicio.html">Inicio</a></strong>
-      <strong><a class="menu__opciones" href="tutorial.html">Tutorial</a></strong>
-      <strong><a class="menu__opciones" href="trucos.html">Trucos</a></strong>
-      <strong><a class="menu__opciones" href="novedades.html">Novedades</a></strong>
-      <strong><a class="menu__opciones" href="contacto.html">Contacto</a></strong>
+  <header class="container-fluid">
+    <img src="src/img/supercell.jpg" class="float-start" alt="Logo de supercell" width="150" height="140"> 
+    <nav class="text-center p-5" >               
+      <strong><a class="m-5 text-decoration-none text-white fs-2" href="inicio.html">Inicio</a></strong>
+      <strong><a class="m-5 text-decoration-none text-white fs-2" href="tutorial.html">Tutorial</a></strong>
+      <strong><a class="m-5 text-decoration-none text-white fs-2" href="trucos.html">Trucos</a></strong>
+      <strong><a class="m-5 text-decoration-none text-white fs-2" href="novedades.html">Novedades</a></strong>
+      <strong><a class="m-5 text-decoration-none text-white fs-2" href="contacto.html">Contacto</a></strong>
     </nav>
   </header>
-
   <section>
     <article class="comentarios">
       <div class="container mt-5">
         <div class="comment__form">
-            <h2 class="text-success text-center">Deja tu comentario</h2>
+            <h2 class="text-success text-center fs-1">Deja tu comentario</h2>
             <form action="#" method="post">
-                <div class="mb-3">
-                    <strong><label for="name" class="form-label text-success">Nombre:</label></strong>
-                    <input type="text" id="name" name="user_name" class="form-control" required>
-                </div>
-                <div class="mb-3">
-                    <strong><label for="comment" class="form-label text-success">Comentario:</label></strong>
-                    <textarea id="comment" name="user_comment" rows="4" class="form-control" required></textarea>
-                </div>
-                <div class="d-flex justify-content-center">
-                  <button type="submit" class="btn btn-info text-white">Enviar</button>
-                </div>
+              <div class="mb-3">
+                  <strong><label for="name" class="form-label text-success fs-4">Nombre:</label></strong>
+                  <input type="text" id="name" name="user_name" class="form-control" required>
+              </div>
+              <div class="mb-3">
+                  <strong><label for="comment" class="form-label text-success fs-4">Comentario:</label></strong>
+                  <textarea id="comment" name="user_comment" rows="4" class="form-control" required></textarea>
+              </div>
+              <div class="d-flex justify-content-center my-5">
+                <button type="submit" class="btn btn-success text-white">Enviar</button>
+              </div>
                 
             </form>
         </div>
     </div>
     </article>
   </section>
-
-  <footer class="bg-dark container-fluid">
-
+  <footer class="container-fluid">
+    <h4 class="text-white">Redes sociales:</h4>
+    <div class="p-2">
+      <a href="https://www.instagram.com/clashroyalees/?hl=es"><img class="m-2" src="src/img/instagram.png" alt="instagram" width="60" height="50"></a>
+      <a href="https://www.facebook.com/ClashRoyale/?locale=es_LA"><img class="m-2" src="src/img/facebook.png" alt="facebook" width="60" height="50"></a>
+      <a href="https://www.youtube.com/channel/UC62hT7P4rX-FyuM3RQuGgnQ"><img class="m-2" src="src/img/youtube.png" alt="youtube" width="60" height="50"></a>
+      <a href="https://twitter.com/ClashRoyale?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img class="m-2" src="src/img/twitter1.png" alt="twitter" width="60" height="50"></a>
+    </div>
   </footer>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
